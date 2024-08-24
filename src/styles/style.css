@@ -94,3 +94,37 @@ main{
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
 }
+
+@media screen and (max-width: 768px) {
+  .pokemon_image {
+    height: 15%;
+    max-height: 120px;
+  }
+
+  .pokemon_data {
+    font-size: clamp(12px, 5vw, 24px);
+  }
+
+  .form, .buttons {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pokemon_image {
+    height: 12%;
+    max-height: 100px;
+  }
+
+  .pokemon_data {
+    font-size: clamp(10px, 6vw, 20px);
+  }
+
+  .form, .buttons {
+    width: 90%;
+  }
+
+  .button {
+    font-size: clamp(10px, 5vw, 0.9rem);
+  }
+}
