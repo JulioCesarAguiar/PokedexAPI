@@ -23,6 +23,7 @@ main{
 .pokedex{
   width: 100%;
   max-width: 42.5rem;
+  height: auto;
 }
 
 .pokemon_image{
@@ -30,7 +31,7 @@ main{
   bottom: 55%;
   left: 51%;
   transform: translate(-63%, 20%);
-  height: 17.5%;
+  height: 17.5% auto;
 }
 
 .pokemon_data{
@@ -97,8 +98,8 @@ main{
 
 @media screen and (max-width: 768px) {
   .pokemon_image {
-    height: 15%;
-    max-height: 120px;
+    height: auto;
+    max-height: 150px;
   }
 
   .pokemon_data {
@@ -112,8 +113,9 @@ main{
 
 @media screen and (max-width: 480px) {
   .pokemon_image {
-    height: 12%;
-    max-height: 100px;
+    height: auto;
+    width: 80px;
+    
   }
 
   .pokemon_data {
